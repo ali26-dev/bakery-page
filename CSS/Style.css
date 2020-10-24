@@ -7,3 +7,8 @@
 body{
     background-color: blue;
 }
+.cls{
+    width: 49px;
+    height:32px;
+    background-color: tomato;
+}
