@@ -6,20 +6,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Bakery</title>
 </head>
-<div> <!--content wrapper-->
-    <header>
-        <div>Logo</div>
-        <div>About</div>
-        <div>Menu</div>
-        <div>Contact</div>
-        <div>
-            <button>Order</button>
-        </div>
+<div class="container mx-auto"> <!--content wrapper-->
+    <header class="flex text-lg tracking-wider uppercase font-semibold text-gray-800">
+        <div><img src="img/logo.png" alt="logo" class="w-24 ml-16 z-20"></div>
+            <nav class="w-4/5 flex justify-evenly mt-5 z-10">
+                <div class="p-4">About</div>
+                <div class="p-4">Menu</div>
+                <div class="p-4">Contact</div>
+                <div class="p-4 ">
+                    <button class="tracking-wider uppercase font-semibold">Order</button>
+                </div>
+            </nav>
     </header>
+    <!--header ends-->
     <main>
-        <div>Hero</div>
+        <div class="relative">
+            <div class="absolute w-56 h-30 bg-gray-800 m-12 ml-32 ">
+                <p class="uppercase text-white text-3xl leading-8 relative">Crown's Signature halloween deco cakes</p>
+
+            </div>
+            <img src="img/hero-banner.jpg" alt="hero-image" class="h-auto">
+        
+        </div>
+
         <div>About</div>
-        <div>love to help you celeberate</div>
+        <div><img src="img/cake-banner.jpg" alt="cake-banner">love to help you celeberate</div>
         <div>careers</div>
     </main>
     <footer>
